@@ -1,41 +1,40 @@
-/* Reset default margin and padding */
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
-    font-family: 'Arial', sans-serif;
-}
+# 🚀 Welcome to My $10,000 Website! 🚀
 
-/* Full-screen animated gradient background */
-.animated-background {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(270deg, #ff7e5f, #feb47b, #ff6a6a, #ff7e5f);
-    background-size: 400% 400%; /* Larger than the container for smooth animation */
-    animation: gradientBG 15s ease infinite; /* Animation for gradient */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=500&lines=Hello+World!;This+is+Mohamad's+GitHub+Repo;Let's+build+something+awesome!" alt="Typing Animation" />
+</div>
 
-/* Keyframes for gradient animation */
-@keyframes gradientBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
+---
 
-/* Moving text animation */
-.moving-text {
-    color: white;
-    font-size: 3em;
-    animation: moveText 5s ease-in-out infinite; /* Animation for text */
-}
+## 🌟 About This Project
+This is a **high-quality, professional repository** designed to showcase my skills and projects. It’s worth $10,000 because of the **attention to detail** and **cutting-edge animations**.
 
-/* Keyframes for text movement */
-@keyframes moveText {
-    0% { transform: translateX(-100%); } /* Start off-screen to the left */
-    50% { transform: translateX(100%); } /* Move to the right */
-    100% { transform: translateX(-100%); } /* Return to the left */
-}
+---
+
+## 🎨 Features
+- **Animated Typing Effect**: Using [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg).
+- **Modern Design**: Clean and professional layout.
+- **Interactive Elements**: Hover effects and animations.
+
+---
+
+## 🛠️ Technologies Used
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Markdown**
+
+---
+
+## 🚀 How to Use
+1. Clone this repository.
+2. Open the `README.md` file to see the magic.
+3. Customize it for your own projects!
+
+---
+
+## 🌈 Animation Preview
+Here’s a sneak peek of the animation:
+
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzV6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V6d2V
