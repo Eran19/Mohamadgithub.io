@@ -1,41 +1,77 @@
-/* Reset default margin and padding */
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
+/* Dark background with purple glow */
+body {
+    background-color: #0b0b0b;
+    color: #e0e0e0;
     font-family: 'Arial', sans-serif;
+    animation: fadeIn 1s ease-in-out;
+    background-image: linear-gradient(135deg, #0b0b0b 0%, #0b0b0b 30%, #a020f0 100%);
+    background-attachment: fixed;
 }
 
-/* Full-screen animated gradient background */
-.animated-background {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(270deg, #ff7e5f, #feb47b, #ff6a6a, #ff7e5f);
-    background-size: 400% 400%; /* Larger than the container for smooth animation */
-    animation: gradientBG 15s ease infinite; /* Animation for gradient */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h1, h2, h3, h4, h5, h6 {
+    color: #a020f0;
+    text-shadow: 0 0 10px #a020f0;
 }
 
-/* Keyframes for gradient animation */
-@keyframes gradientBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+a {
+    color: #a020f0;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-/* Moving text animation */
-.moving-text {
+a:hover {
+    color: #ff00ff;
+    text-decoration: underline;
+}
+
+/* Button animations */
+button {
+    background-color: #a020f0;
+    border: none;
     color: white;
-    font-size: 3em;
-    animation: moveText 5s ease-in-out infinite; /* Animation for text */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #a020f0;
 }
 
-/* Keyframes for text movement */
-@keyframes moveText {
-    0% { transform: translateX(-100%); } /* Start off-screen to the left */
-    50% { transform: translateX(100%); } /* Move to the right */
-    100% { transform: translateX(-100%); } /* Return to the left */
+button:hover {
+    background-color: white;
+    color: #a020f0;
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+footer {
+    text-align: center;
+    color: #e0e0e0;
+    margin-top: 50px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Header slide-in animation */
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.header {
+    animation: slide-in 1s ease-out;
 }
