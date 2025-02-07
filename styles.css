@@ -1,9 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <title>Your Name</title>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#blog">Blog</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Short introduction about yourself.</p>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <!-- Add blog post previews here -->
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <!-- Add project previews here -->
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <!-- Add contact form here -->
+        </section>
+    </main>
+    <footer>
+        <p>Created by Your Name & Raziya</p>
+    </footer>
+</body>
+</html>
 /* Enhanced style for dark theme with subtle glow effects */
 body {
     background-color: #0b0b0b;
     color: #e0e0e0;
     font-family: 'Arial', sans-serif;
     background: radial-gradient(circle, #0b0b0b 0%, #1d1d1d 60%, #000000 100%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav a {
+    color: #a020f0;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff00ff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,14 +73,15 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 0 0 8px #a020f0;
 }
 
-a {
-    color: #a020f0;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
+section {
+    padding: 60px 20px;
+    text-align: center;
 }
 
-a:hover {
-    color: #ff00ff;
+footer {
+    text-align: center;
+    color: #e0e0e0;
+    margin-top: 50px;
 }
 
 button {
@@ -43,12 +106,6 @@ button:hover {
     box-shadow: 0 0 20px #ff00ff;
 }
 
-footer {
-    text-align: center;
-    color: #e0e0e0;
-    margin-top: 50px;
-}
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -59,5 +116,9 @@ footer {
 }
 
 .header {
-    animation: slide-in 1s ease-out;
+    animation: fadeIn 1s ease-out;
 }
+document.addEventListener('DOMContentLoaded', () => {
+    const header = document.querySelector('header');
+    header.classList.add('header');
+});
